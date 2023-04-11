@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    width: 100%;
+    height: 100px;
+}
+nav h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    color: black;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+nav div h3,h1,span,div{
+    display: inline;
+}
+.all{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: gray;
+    font-weight: 300;
+}
+.all div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.all div span{
+  
+    margin-right: 5px;
+    margin-left: 20px;
+}
+.bar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar h3,span{
+    display: inline;
+    margin-left: 20px;
+}
+.zzva{
+    line-height: 0;
+    margin: 0;
+}
+.mec{
+    width: 90%;
+    height: 1000px;
+    justify-content: center;
+}
+.bg{
+    width: 95%;
+    height: 700px;
+    background-color: #515157;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://assets.website-files.com/5bb62929f4d1fd759a1dce2a/5bb76b6c73d32b5386b4d97a_banner.jpg);
+    background-attachment: fixed ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+.bg h2{
+    font-size: 50px;
+}
+.erku{
+    height: 800px;
+}
+.btn{
+    color: white;
+    background-color: #222222;
+    height: 60px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+
+}
+.btn:hover{
+    background-color: #515157;
+}
+.erku{
+    width: 95%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.erku div{
+    width: 30%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    color: white;
+}
+.erku div h3{
+    font-family:'Golos Text', sans-serif;;
+    font-weight: 300;
+    font-size: 30px;
+    margin:0 15px 20px 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: auto;
+   
+}
+.main h2{
+    font-size: 50px;
+}
+.main hr{
+   width: 25%;
+   margin: auto;
+}
+.pic{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.pic div{
+    width: 30vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.pic div img{
+    width: 100%;
+    height: 400px ;
+    object-fit: cover;
+    opacity: 0.5;
+    color: gray;
+}
+.pic div h3,h4{
+ line-height: 40px;
+ font-size: 25px;
+}
+.pic div h3{
+    color: gray;
+}
+.pic div img:hover{
+    opacity: 1;
+    transition: 0.5s
+}
+.tex{
+    height: 100px;
+    margin-top: 100px;
+}
+.verj{
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.verj div h2{
+   font-size: 50px;
+}
+.verj div hr{
+    width:25%;
+}
+.lav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.verj #not{
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    height: 100px;
+
+}
+#not h2{
+    font-family: 'Passion One', cursive  !important;
+    font-size: 25px;
+}
+.hamarya{
+    width: 45%;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.hamarya div{
+    display: flex;
+}
+.hamarya i{
+    color:#515157 ;
+}
+.mail input{
+    width: 220px;
+    border: gray 1px solid;
+    font-size: 17px;
+}
+footer{
+    height: 150px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+footer div {
+    display: flex;
+}
+footer div h3 {
+    font-size: 20px;
+    margin:10px;
+}
